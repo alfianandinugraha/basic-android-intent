@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val button = findViewById<Button>(R.id.btn_login);
+        val button = findViewById<Button>(R.id.btn_to_login);
         val buttonToRegister = findViewById<Button>(R.id.btn_to_register)
 
         button.setOnClickListener {
