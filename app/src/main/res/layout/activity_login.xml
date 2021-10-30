@@ -17,34 +17,34 @@
 		<TextView android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:text="Login"
-				android:textSize="24"
+				android:textSize="24dp"
 				android:textFontWeight="700"/>
 		<EditText android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:width="300dp"
 				android:hint="Email"
-				android:layout_marginTop="24"/>
+				android:layout_marginTop="24dp"/>
 		<EditText android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:width="300dp"
 				android:hint="Password"
-				android:layout_marginTop="24"/>
+				android:layout_marginTop="24dp"/>
 		<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
 				android:layout_height="match_parent"
-				android:layout_marginTop="24">
+				android:layout_marginTop="24dp">
 				<Button android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:text="Login"
 						app:layout_constraintTop_toTopOf="parent"
 						app:layout_constraintLeft_toLeftOf="parent"
-						android:id="@+id/btn-login"/>
+						android:id="@+id/btn_login"/>
 				<TextView android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:text="Register"
-						android:layout_marginLeft="24"
+						android:layout_marginLeft="24dp"
 						app:layout_constraintTop_toTopOf="parent"
 						app:layout_constraintBottom_toBottomOf="parent"
-						app:layout_constraintLeft_toRightOf="@+id/btn-login"/>
+						app:layout_constraintLeft_toRightOf="@+id/btn_login"/>
 		</androidx.constraintlayout.widget.ConstraintLayout>
 	</LinearLayout>
   </androidx.constraintlayout.widget.ConstraintLayout>
