@@ -38,10 +38,12 @@
 						app:layout_constraintTop_toTopOf="parent"
 						app:layout_constraintLeft_toLeftOf="parent"
 						android:id="@+id/btn_login"/>
-				<TextView android:layout_width="wrap_content"
+				<Button android:layout_width="wrap_content"
+						android:id="@+id/btn_to_register"
 						android:layout_height="wrap_content"
 						android:text="Register"
-						android:layout_marginLeft="24dp"
+						android:layout_marginLeft="12dp"
+						style="@style/Widget.MaterialComponents.Button.TextButton"
 						app:layout_constraintTop_toTopOf="parent"
 						app:layout_constraintBottom_toBottomOf="parent"
 						app:layout_constraintLeft_toRightOf="@+id/btn_login"/>
