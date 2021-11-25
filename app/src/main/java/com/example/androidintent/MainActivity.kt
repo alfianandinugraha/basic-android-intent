@@ -28,12 +28,13 @@ class MainActivity : AppCompatActivity() {
 
             if (emailInput != requireEmail || passwordInput != requirePassword) {
                 Toast.makeText(this, "username atau password salah", Toast.LENGTH_LONG).show()
+            } else {
+                Intent(this, HomeActivity::class.java)
+                    .also {
+                        startActivity(it)
+                    }
             }
 
-            Intent(this, HomeActivity::class.java)
-                .also {
-                    startActivity(it)
-                }
         }
 
         buttonToRegister.setOnClickListener {
