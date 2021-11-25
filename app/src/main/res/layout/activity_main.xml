@@ -5,6 +5,7 @@
 		xmlns:app="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
+		android:background="#296D8F"
 		tools:context=".MainActivity">
 	<LinearLayout android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -16,18 +17,25 @@
 	>
 		<TextView android:layout_width="match_parent"
 			android:layout_height="wrap_content"
+			android:textColor="@color/white"
 			android:text="Login"
 			android:textSize="24dp"
 			android:textFontWeight="700"/>
 		<EditText android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:id="@+id/input_email"
 			android:width="300dp"
+			android:textColor="@color/white"
+			android:textColorHint="@color/white"
 			android:hint="Email"
 			android:layout_marginTop="24dp"/>
 		<EditText android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:id="@+id/input_password"
 			android:width="300dp"
 			android:hint="Password"
+				android:textColor="@color/white"
+			android:textColorHint="@color/white"
 			android:layout_marginTop="24dp"/>
 		<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
 			android:layout_height="match_parent"
@@ -43,6 +51,7 @@
 				android:layout_height="wrap_content"
 				android:text="Register"
 				android:layout_marginLeft="12dp"
+				android:backgroundTint="@color/white"
 				style="@style/Widget.MaterialComponents.Button.TextButton"
 				app:layout_constraintTop_toTopOf="parent"
 				app:layout_constraintBottom_toBottomOf="parent"
